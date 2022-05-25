@@ -1,0 +1,148 @@
+
+/*estilização para barra de navegação de todas as paginas*/
+/*estilizando a cor das letras da barra de navegação */
+li {
+    display: inline;
+    color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+/*estilizando a barra de navegação*/
+.barra{
+      background-color: rgb(3, 15, 51);
+      padding: 10px 10px;  
+      color: white;
+}
+
+/*imagem do escudo do capitão america na barra de navegação*/
+.borda{
+    border-radius: 100%;
+    height: 5%;
+    width: 5%;
+}
+
+/*cor do icone da barra de navegação*/
+i{
+    color: rgb(192, 8, 8);
+}
+
+/*para tirar o sublinhado das letras da barra de navegação de todoas as paginas*/
+a{  
+    text-decoration: none;
+    color: rgb(237, 240, 243); /*só coloquei porque as letras da barra de navegação pagina contato não estava ficando da cor brnca*/
+}
+
+/*para o item Rede Social da barra de navegação funcione*/  
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: rgb(237, 240, 243);
+}
+ 
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(44, 93, 230);
+    min-width: 172px;
+    z-index: 1;
+    
+}
+  
+/*cor da letra dos links*/
+.dropdown-content a {
+    color: rgb(243, 235, 235);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+/*quando passar o mouse fica branco nos links de redes sociais*/
+.dropdown-content a:hover {background-color: #dcd9fa}
+  
+/*para os links ficar em baixo de redes */
+.dropdown:hover .dropdown-content{ 
+    display: block;
+}
+
+/*para quando passar o mouse em redes sociais mudar de cor*/
+.dropdown:hover {
+    background-color: rgb(44, 93, 230);
+}
+
+/*para mudar a fonte de redes sociais*/
+.redes{
+    font-style: normal;
+}
+
+
+/*estilizando a div onde tem a tag h1 */
+h1{
+    padding: 14px 16px;
+    font-style: italic ;
+    text-align: center;
+}
+
+/*----------------------------------------------------------*/
+/*estilização espefifica Para pagina Home*/
+/*para deixar o imagem do lado d paragrafo*/
+.inline{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*estilizando os paragrafos da aba home do aquivo index*/
+.paragrafo{
+  padding: 10px;
+  text-align: justify;
+  font-style: italic;
+  margin: 20px 20px;
+}
+
+/*estilização o gif da aba home do arquivo index*/
+.gif {
+    padding-right: 6%;
+    padding-top: 3%;
+    
+}
+
+
+/*----------------------------------------------------------*/
+/*estilizações especifica para a pagina da musica*/
+/*titulo do arquivo musica*/
+h4{
+    margin: 25px 25px;
+}
+
+/*video do documento musica*/
+iframe{
+    margin:5px 50px 75px 100px;
+}
+
+/*paragrafo do documento musica e contato*/
+p{
+    margin: 25px 25px;
+    font-style: italic;
+}
+
+/*----------------------------------------------------------*/
+/*estilizações especificas para Pagina contato*/
+/*para deixar o o mapa do lado do formulario*/
+.mb-50{
+    padding-left: 10%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ml-50 {
+    margin-left: 55px;
+}
+
+.center{
+    text-align: center;
+}
+
+ 
